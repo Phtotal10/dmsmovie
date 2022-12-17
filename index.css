@@ -73,7 +73,7 @@ a, a:hover {
     border-radius: 8px 8px 0 0;
 }
 
-.desmovie-card-descripition {
+.desmovie-card-description {
     background-color: var(--white);
     padding: 10px 0 20px 0;
     display: flex;
@@ -82,7 +82,7 @@ a, a:hover {
     border-radius: 0 0 8px 8px;
 }
 
-.desmovie-card-descripition h3 {
+.desmovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -98,5 +98,10 @@ a, a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+
+}
+
+.dsmovie-form-container {
+    padding: 40px 0;
 
 }
