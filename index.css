@@ -62,7 +62,7 @@ a, a:hover {
 }
 
 #desmovie-card-list {
-    padding: 40px 10px;
+    padding: 0 10px;
 }
 
 .dsmovie-card {
@@ -170,3 +170,35 @@ a, a:hover {
     justify-content: space-between;
 
 }
+
+.dsmovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dsmovie-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+
+}
+
+.dsmovie-pagination-box button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid; color: var(--color-primary);
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
